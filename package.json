@@ -1,0 +1,22 @@
+{
+  "name": "couch-cast",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "tailwindcss": "^3.3.2"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9",
+    "gh-pages": "^6.0.0"
+  }
+}
